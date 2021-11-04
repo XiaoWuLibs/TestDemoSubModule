@@ -1,13 +1,14 @@
-plugins {
-    id 'com.android.application'
-}
+//plugins {
+//    id 'com.android.application'
+//}
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.study.testdemosubmodule"
+//        applicationId "com.study.testdemosubmodule"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
